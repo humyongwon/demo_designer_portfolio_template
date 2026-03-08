@@ -44,8 +44,8 @@ playtest/
 
 ### 1. Download the Project | 下载项目
 ```bash
-git clone <repository-url>
-cd playtest
+git clone https://github.com/humyongwon/demo_designer_portfolio_template.git
+cd demo_designer_portfolio_template
 ```
 
 ### 2. Local Preview | 本地预览
@@ -234,5 +234,6 @@ A: Push the project to a GitHub repository and enable GitHub Pages in the settin
 Welcome to submit Issues and Pull Requests to improve this project. | 欢迎提交 Issue 和 Pull Request 来改进这个项目。
 
 ---
+
 
 **Thank you for using this designer portfolio template!** 🎨 | **感谢使用这个设计师作品集模板！** 🎨
