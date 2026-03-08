@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计师作品集 | Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div class="loading"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DESIGNER</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#projects">作品</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero 区 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">创意设计师</h1>
+            <p class="hero-subtitle">专注于用户体验与界面设计</p>
+            <a href="#projects" class="btn-primary">探索作品</a>
+        </div>
+    </section>
+
+    <!-- 作品展示区 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">精选作品</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=300&fit=crop" alt="移动应用设计">
+                    </div>
+                    <div class="project-content">
+                        <h3>移动银行应用</h3>
+                        <p>现代化的金融应用界面设计</p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop" alt="电商网站设计">
+                    </div>
+                    <div class="project-content">
+                        <h3>电商平台</h3>
+                        <p>响应式电商网站设计</p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="品牌设计">
+                    </div>
+                    <div class="project-content">
+                        <h3>品牌视觉系统</h3>
+                        <p>完整的品牌识别设计</p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="4">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="数据可视化">
+                    </div>
+                    <div class="project-content">
+                        <h3>数据仪表盘</h3>
+                        <p>企业级数据可视化界面</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>专业背景</h3>
+                    <p>拥有5年以上的设计经验，专注于用户体验设计、界面设计和品牌设计。致力于通过设计创造有意义的产品体验。</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 至今</div>
+                        <div class="timeline-content">
+                            <h4>高级产品设计师</h4>
+                            <p class="company">科技公司</p>
+                            <p>负责产品设计团队管理，主导多个重要项目的用户体验设计。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2022</div>
+                        <div class="timeline-content">
+                            <h4>UI/UX设计师</h4>
+                            <p class="company">设计工作室</p>
+                            <p>参与多个国际品牌的设计项目，专注于移动应用和网站设计。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2015 - 2019</div>
+                        <div class="timeline-content">
+                            <h4>视觉传达设计</h4>
+                            <p class="company">设计学院</p>
+                            <p>主修视觉传达设计，专注于数字媒体和交互设计方向。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <p>邮箱: hello@designer.com</p>
+                    <p>电话: +86 138 0000 0000</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Dribbble</a>
+                        <a href="#" class="social-link">Behance</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="email" placeholder="邮箱地址" required>
+                    <textarea placeholder="留言内容" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 设计师作品集. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <!-- 作品详情模态框 -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-body">
+                <!-- 动态内容 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
