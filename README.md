@@ -226,14 +226,9 @@ A: Add new project data to the `projects` array in `script.js`. | 在 `script.js
 ### Q: How to change the color theme? | 如何更改颜色主题？
 A: Modify the color variables and corresponding style rules in `style.css`. | 修改 `style.css` 中的颜色变量和对应的样式规则。
 
-### Q: How to deploy to GitHub Pages? | 如何部署到GitHub Pages？
-A: Push the project to a GitHub repository and enable GitHub Pages in the settings. | 将项目推送到GitHub仓库，在设置中启用GitHub Pages。
-
-## 🤝 Contribution Guide | 贡献指南
-
-Welcome to submit Issues and Pull Requests to improve this project. | 欢迎提交 Issue 和 Pull Request 来改进这个项目。
 
 ---
 
 
 **Thank you for using this designer portfolio template!** 🎨 | **感谢使用这个设计师作品集模板！** 🎨
+
